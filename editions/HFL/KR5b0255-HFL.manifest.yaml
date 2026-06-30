@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0255/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0255/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 天樞院都司須知令
+  date: '2015-08-29 00:15:20.575339'
+  source:
+    repository: kanripo
+    path: KR5b0255
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0255_000-HFL.yaml, hash: 'sha256:c1de8ab68fcec1e641eb40f9c3ab19f7beed45d29e4dfb5e67b1d6956ccd12f1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0255_000-HFL.markers.yaml, hash: 'sha256:92357e61e24088f335095e05033f16077cc387e9abd1f8e78c6325a513187673'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0255_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1091
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ea17b076d4fd3c0310641d7670821e473944a8c85900f62c05741122923b04f1
